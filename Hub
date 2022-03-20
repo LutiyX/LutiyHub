@@ -1,4 +1,4 @@
--- Made By: Lutiy
+-- By: Lutiy
 
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
@@ -13,9 +13,16 @@ local ProxoHUB = Instance.new("TextButton")
 local RealZzHub = Instance.new("TextButton")
 local PetSimX = Instance.new("TextButton")
 local DarkDex = Instance.new("TextButton")
-local BreakIN = Instance.new("TextButton")
+local PlasmaHub = Instance.new("TextButton")
+local BetterHub = Instance.new("TextButton")
+local Eclipse = Instance.new("TextButton")
+local SwagMode = Instance.new("TextButton")
+local AimWare = Instance.new("TextButton")
+local SpaceWare = Instance.new("TextButton")
 local openmain = Instance.new("Frame")
 local open = Instance.new("TextButton")
+
+
 
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -26,8 +33,6 @@ main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 main.Position = UDim2.new(0.149985999, 0, 0.222496212, 0)
 main.Size = UDim2.new(0, 986, 0, 452)
 main.Visible = false
-main.Active = true
-main.Draggable = true
 
 TextLabel.Parent = main
 TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -202,20 +207,98 @@ DarkDex.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/LutiyX/LutiyHub/main/DarkDex",true))()
 end)
 
-BreakIN.Name = "BreakIN"
-BreakIN.Parent = main
-BreakIN.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-BreakIN.BorderColor3 = Color3.fromRGB(255, 255, 255)
-BreakIN.Position = UDim2.new(0.202534929, 0, 0.548512459, 0)
-BreakIN.Size = UDim2.new(0, 193, 0, 55)
-BreakIN.Font = Enum.Font.SciFi
-BreakIN.Text = "Break In"
-BreakIN.TextColor3 = Color3.fromRGB(255, 255, 255)
-BreakIN.TextScaled = true
-BreakIN.TextSize = 14.000
-BreakIN.TextWrapped = true
-BreakIN.MouseButton1Down:connect(function()
+PlasmaHub.Name = "PlasmaHub"
+PlasmaHub.Parent = main
+PlasmaHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlasmaHub.BorderColor3 = Color3.fromRGB(255, 255, 255)
+PlasmaHub.Position = UDim2.new(0.202534929, 0, 0.548512459, 0)
+PlasmaHub.Size = UDim2.new(0, 193, 0, 55)
+PlasmaHub.Font = Enum.Font.SciFi
+PlasmaHub.Text = "Plasma Hub"
+PlasmaHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlasmaHub.TextScaled = true
+PlasmaHub.TextSize = 14.000
+PlasmaHub.TextWrapped = true
+PlasmaHub.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyBoo4life/break-in-v1/main/.gitignore"))();
+end)
+
+BetterHub.Name = "BetterHub"
+BetterHub.Parent = main
+BetterHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BetterHub.BorderColor3 = Color3.fromRGB(255, 255, 255)
+BetterHub.Position = UDim2.new(0.202534929, 0, 0.683468223, 0)
+BetterHub.Size = UDim2.new(0, 193, 0, 55)
+BetterHub.Font = Enum.Font.SciFi
+BetterHub.Text = "Better Hub"
+BetterHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+BetterHub.TextScaled = true
+BetterHub.TextSize = 14.000
+BetterHub.TextWrapped = true
+loadstring(game:HttpGet('https://raw.githubusercontent.com/thombomb2009/butter-hub/main/butter%20hub.txt'))()
+
+Eclipse.Name = "Eclipse"
+Eclipse.Parent = main
+Eclipse.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Eclipse.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Eclipse.Position = UDim2.new(0.202534929, 0, 0.818423986, 0)
+Eclipse.Size = UDim2.new(0, 193, 0, 55)
+Eclipse.Font = Enum.Font.SciFi
+Eclipse.Text = "Eclipse Hub"
+Eclipse.TextColor3 = Color3.fromRGB(255, 255, 255)
+Eclipse.TextScaled = true
+Eclipse.TextSize = 14.000
+Eclipse.TextWrapped = true
+Eclipse.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+end)
+
+SwagMode.Name = "SwagMode"
+SwagMode.Parent = main
+SwagMode.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SwagMode.BorderColor3 = Color3.fromRGB(255, 255, 255)
+SwagMode.Position = UDim2.new(0.40836525, 0, 0.137955695, 0)
+SwagMode.Size = UDim2.new(0, 193, 0, 55)
+SwagMode.Font = Enum.Font.SciFi
+SwagMode.Text = "Swag Mode"
+SwagMode.TextColor3 = Color3.fromRGB(255, 255, 255)
+SwagMode.TextScaled = true
+SwagMode.TextSize = 14.000
+SwagMode.TextWrapped = true
+SwagMode.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+AimWare.Name = "AimWare"
+AimWare.Parent = main
+AimWare.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AimWare.BorderColor3 = Color3.fromRGB(255, 255, 255)
+AimWare.Position = UDim2.new(0.40836525, 0, 0.272911429, 0)
+AimWare.Size = UDim2.new(0, 193, 0, 55)
+AimWare.Font = Enum.Font.SciFi
+AimWare.Text = "Aim Ware"
+AimWare.TextColor3 = Color3.fromRGB(255, 255, 255)
+AimWare.TextScaled = true
+AimWare.TextSize = 14.000
+AimWare.TextWrapped = true
+AimWare.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/fg0C9NSS'))()
+end)
+
+SpaceWare.Name = "SpaceWare"
+SpaceWare.Parent = main
+SpaceWare.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SpaceWare.BorderColor3 = Color3.fromRGB(255, 255, 255)
+SpaceWare.Position = UDim2.new(0.40836525, 0, 0.410079598, 0)
+SpaceWare.Size = UDim2.new(0, 193, 0, 55)
+SpaceWare.Font = Enum.Font.SciFi
+SpaceWare.Text = "Space Ware"
+SpaceWare.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpaceWare.TextScaled = true
+SpaceWare.TextSize = 14.000
+SpaceWare.TextWrapped = true
+SpaceWare.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nasafanboy/spaceware/main/epic"))()
 end)
 
 openmain.Name = "openmain"

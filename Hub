@@ -239,7 +239,9 @@ BetterHub.TextColor3 = Color3.fromRGB(255, 255, 255)
 BetterHub.TextScaled = true
 BetterHub.TextSize = 14.000
 BetterHub.TextWrapped = true
-loadstring(game:HttpGet('https://raw.githubusercontent.com/thombomb2009/butter-hub/main/butter%20hub.txt'))()
+BetterHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/thombomb2009/butter-hub/main/butter%20hub.txt'))()
+end)
 
 Eclipse.Name = "Eclipse"
 Eclipse.Parent = main
@@ -317,7 +319,7 @@ ChariotsWare.TextColor3 = Color3.fromRGB(255, 255, 255)
 ChariotsWare.TextScaled = true
 ChariotsWare.TextSize = 14.000
 ChariotsWare.TextWrapped = true
-SpaceWare.MouseButton1Down:connect(function()
+ChariotsWare.MouseButton1Down:connect(function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()
 end)
 

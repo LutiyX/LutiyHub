@@ -25,6 +25,7 @@ local SpaceWare = Instance.new("TextButton")
 local ChariotsWare = Instance.new("TextButton")
 local openmain = Instance.new("Frame")
 local open = Instance.new("TextButton")
+local SoftVortex = Instance.new("TextButton")
 
 --Properties:
 
@@ -321,6 +322,22 @@ ChariotsWare.TextSize = 14.000
 ChariotsWare.TextWrapped = true
 ChariotsWare.MouseButton1Down:connect(function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()
+end)
+
+SoftVortex.Name = "SoftVortex"
+SoftVortex.Parent = main
+SoftVortex.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SoftVortex.BorderColor3 = Color3.fromRGB(255, 255, 255)
+SoftVortex.Position = UDim2.new(0.40836525, 0, 0.683110952, 0)
+SoftVortex.Size = UDim2.new(0, 193, 0, 55)
+SoftVortex.Font = Enum.Font.SciFi
+SoftVortex.Text = "SoftVortex"
+SoftVortex.TextColor3 = Color3.fromRGB(255, 255, 255)
+SoftVortex.TextScaled = true
+SoftVortex.TextSize = 14.000
+SoftVortex.TextWrapped = true
+SoftVortex.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/SoftVortex/1.5/main/1.55"),true))()
 end)
 
 openmain.Name = "openmain"
